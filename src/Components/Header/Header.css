@@ -1,0 +1,30 @@
+.mainHeader{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(168, 31, 31);
+    align-items: center;
+    margin-bottom: 5%;
+    justify-content: space-evenly;
+}
+.headerLogo{
+    color: white;
+    margin-left: 2%;
+    padding: 5%;
+    font-size: 3vw;
+}
+.headerButtonContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+.headerButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 94, 94);
+    padding: 1%;
+    color: white;
+    font-size: 1vw;
+    border-radius: 8px;
+}
